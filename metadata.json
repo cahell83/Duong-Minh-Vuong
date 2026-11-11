@@ -1,0 +1,6 @@
+{
+  "name": "PickleMatch Pro - Quản Lý & Chia Trận Pickleball Club",
+  "description": "Ứng dụng chia trận ngẫu nhiên 4 nam, 4 nữ, đôi nam nữ với thuật toán nghỉ xen kẽ 1 trận, ghi sổ điểm, bảng xếp hạng tuần/tháng/năm và phân quyền quản trị viên.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

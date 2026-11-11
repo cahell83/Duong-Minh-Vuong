@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="paddleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="earGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Outer sporty ring -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#10b981" stroke-width="6" stroke-dasharray="16 12" opacity="0.3" />
+
+  <g filter="url(#shadow)">
+    <!-- Pickleball Paddle behind puppy -->
+    <g transform="translate(320, 160) rotate(28)">
+      <!-- Paddle face -->
+      <rect x="-60" y="-85" width="120" height="150" rx="36" fill="url(#paddleGrad)" stroke="#34d399" stroke-width="6" />
+      <!-- Paddle handle -->
+      <rect x="-14" y="65" width="28" height="95" rx="8" fill="#e2e8f0" stroke="#94a3b8" stroke-width="3" />
+      <line x1="-14" y1="90" x2="14" y2="90" stroke="#cbd5e1" stroke-width="3" />
+      <line x1="-14" y1="115" x2="14" y2="115" stroke="#cbd5e1" stroke-width="3" />
+      <line x1="-14" y1="140" x2="14" y2="140" stroke="#cbd5e1" stroke-width="3" />
+      <!-- Paddle edge guard -->
+      <circle cx="0" cy="-10" r="24" fill="#047857" opacity="0.4" />
+    </g>
+
+    <!-- Puppy Dog Face -->
+    <!-- Floppy Dog Ears -->
+    <!-- Left Ear -->
+    <ellipse cx="145" cy="210" rx="38" ry="72" transform="rotate(-30 145 210)" fill="url(#earGrad)" stroke="#78350f" stroke-width="5" />
+    <ellipse cx="148" cy="216" rx="22" ry="46" transform="rotate(-30 148 216)" fill="#fde68a" opacity="0.6" />
+    <!-- Right Ear -->
+    <ellipse cx="335" cy="215" rx="38" ry="72" transform="rotate(30 335 215)" fill="url(#earGrad)" stroke="#78350f" stroke-width="5" />
+    <ellipse cx="332" cy="221" rx="22" ry="46" transform="rotate(30 332 221)" fill="#fde68a" opacity="0.6" />
+
+    <!-- Puppy Head -->
+    <ellipse cx="240" cy="255" rx="100" ry="92" fill="#fef3c7" stroke="#b45309" stroke-width="6" />
+
+    <!-- Sport Sweatband on forehead -->
+    <path d="M 152 215 Q 240 185 328 215" stroke="#ef4444" stroke-width="26" stroke-linecap="round" fill="none" />
+    <path d="M 160 215 Q 240 187 320 215" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" />
+
+    <!-- Big Sparkly Eyes -->
+    <!-- Left Eye -->
+    <ellipse cx="196" cy="250" rx="16" ry="20" fill="#1e1b4b" />
+    <circle cx="191" cy="244" r="6" fill="#ffffff" />
+    <circle cx="202" cy="256" r="2.5" fill="#ffffff" />
+    <!-- Right Eye -->
+    <ellipse cx="284" cy="250" rx="16" ry="20" fill="#1e1b4b" />
+    <circle cx="279" cy="244" r="6" fill="#ffffff" />
+    <circle cx="290" cy="256" r="2.5" fill="#ffffff" />
+
+    <!-- Cute Blush -->
+    <ellipse cx="168" cy="275" rx="14" ry="8" fill="#f43f5e" opacity="0.4" />
+    <ellipse cx="312" cy="275" rx="14" ry="8" fill="#f43f5e" opacity="0.4" />
+
+    <!-- Snout & Nose -->
+    <ellipse cx="240" cy="286" rx="34" ry="24" fill="#fffbeb" stroke="#f59e0b" stroke-width="2" />
+    <path d="M 226 276 Q 240 270 254 276 Q 240 292 226 276 Z" fill="#1e1b4b" />
+    <circle cx="236" cy="275" r="2" fill="#94a3b8" />
+    <!-- Happy Smile with Tongue -->
+    <path d="M 240 286 L 240 298 M 230 298 Q 240 306 250 298" stroke="#1e1b4b" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 235 300 Q 240 312 245 300 Z" fill="#f43f5e" />
+
+    <!-- Glowing Pickleball (Front Left) -->
+    <g transform="translate(140, 355)">
+      <circle cx="0" cy="0" r="54" fill="url(#ballGrad)" stroke="#ca8a04" stroke-width="5" />
+      <!-- Pickleball holes -->
+      <circle cx="0" cy="0" r="7" fill="#854d0e" opacity="0.75" />
+      <circle cx="-24" cy="-14" r="6" fill="#854d0e" opacity="0.75" />
+      <circle cx="24" cy="-14" r="6" fill="#854d0e" opacity="0.75" />
+      <circle cx="-18" cy="22" r="6" fill="#854d0e" opacity="0.75" />
+      <circle cx="18" cy="22" r="6" fill="#854d0e" opacity="0.75" />
+      <circle cx="-32" cy="8" r="5" fill="#854d0e" opacity="0.7" />
+      <circle cx="32" cy="8" r="5" fill="#854d0e" opacity="0.7" />
+      <circle cx="0" cy="-30" r="5.5" fill="#854d0e" opacity="0.7" />
+      <circle cx="0" cy="32" r="5.5" fill="#854d0e" opacity="0.7" />
+      <!-- Shine -->
+      <path d="M -25 -30 Q -10 -44 15 -40" stroke="#fef08a" stroke-width="5" stroke-linecap="round" fill="none" />
+    </g>
+  </g>
+
+  <!-- Badge Text Banner at bottom -->
+  <g transform="translate(256, 452)">
+    <rect x="-140" y="-22" width="280" height="44" rx="22" fill="#047857" stroke="#34d399" stroke-width="3" />
+    <text x="0" y="7" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">CÚN CƯNG DUPR</text>
+  </g>
+</svg>
